@@ -13,7 +13,7 @@ SOURCE_DIR="$(dirname $0)/../compiled"
 cd $BUILD_DIR
 mkdir -p $VENDOR_DIR
 cd $VENDOR_DIR
-tar zxvf "$SOURCE_DIR/qpdf_8.0.2.tar.gz"
+tar zxf "$SOURCE_DIR/qpdf_8.0.2.tar.gz"
 
 rm "$SOURCE_DIR/qpdf_8.0.2.tar.gz"
 
