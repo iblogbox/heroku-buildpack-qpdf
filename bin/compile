@@ -14,8 +14,10 @@ cd $BUILD_DIR
 mkdir -p $VENDOR_DIR
 cd $VENDOR_DIR
 tar zxf "$SOURCE_DIR/qpdf_8.0.2.tar.gz"
+#remove docs
+rm -rf "share"
 
-rm "$SOURCE_DIR/qpdf_8.0.2.tar.gz"
+rm -rf "$SOURCE_DIR/qpdf_8.0.2.tar.gz"
 
 echo "exporting PATH and LD_LIBRARY_PATH" | indent
 PROFILE_PATH="$BUILD_DIR/.profile.d/qpdf.sh"
