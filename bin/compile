@@ -15,7 +15,7 @@ mkdir -p $VENDOR_DIR
 cd $VENDOR_DIR
 tar zxf "$SOURCE_DIR/qpdf_8.0.2.tar.gz"
 #remove docs
-rm -rf "share"
+rm -rf "qpdf/share"
 
 rm -rf "$SOURCE_DIR/qpdf_8.0.2.tar.gz"
 
